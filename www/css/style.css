@@ -1,0 +1,73 @@
+/*======================
+
+CSS
+======================*/
+
+body {
+    background: #fff;
+    padding: 160px;
+}
+
+.logo-insta {
+    width: 400px;
+    background: white;
+    border-radius: 90px;
+    background-image: radial-gradient(circle at 30% 100%, #fed373 9%, #f15245 30%, #d92e7f 62%, #515ecf 85%, #9b36b7);
+    position: relative;
+    padding: 40px 0;
+    margin: auto;
+}
+
+.logo-insta .container {
+    width: 250px;
+    height: 250px;
+    border: 28px solid white;
+    border-radius: 100px;
+    position: relative;
+    left: 0;
+    margin: auto;
+    right: 0;
+}
+
+.logo-insta .container .circle {
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border: 28px solid white;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+}
+
+.logo-insta .container .circle:after {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+    content: '';
+    left: 105px;
+    top: -160px;
+}
+
+::-webkit-scrollbar {
+    height: 0.5em;
+    width: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: radial-gradient(circle at 30% 100%, #fed373 9%, #f15245 30%, #d92e7f 62%, #515ecf 85%, #9b36b7);
+    ;
+}
+
+::-webkit-scrollbar-track {
+    background: #eee;
+}
